@@ -67,10 +67,11 @@ class _welcomepageState extends State<welcomepage> {
                   child: Container(
                     width: 150,
                     height: 150,
-                    alignment: Alignment.center,
+                    alignment: Alignment.bottomCenter,
+                    padding: const EdgeInsets.all(10.0),
                     decoration: BoxDecoration(
                       image: DecorationImage(
-                        image: AssetImage("assets/images/medical1.jpg"),
+                        image: AssetImage("assets/images/medical2.jpg"),
                         fit: BoxFit.cover,
                         ),
                     ),
@@ -92,10 +93,11 @@ class _welcomepageState extends State<welcomepage> {
               child: Container(
                 width: 150,
                 height: 150,
-                alignment: Alignment.center,
+                 alignment: Alignment.bottomCenter,
+                    padding: const EdgeInsets.all(10.0),
                 decoration: BoxDecoration(
                       image: DecorationImage(
-                        image: AssetImage("assets/images/medical1.jpg"),
+                        image: AssetImage("assets/images/medical2.jpg"),
                         fit: BoxFit.cover,
                         ),
                     ),
@@ -125,10 +127,11 @@ class _welcomepageState extends State<welcomepage> {
               child: Container(
                 width: 150,
                 height: 150,
-                alignment: Alignment.center,
+                 alignment: Alignment.bottomCenter,
+                    padding: const EdgeInsets.all(10.0),
                 decoration: BoxDecoration(
                       image: DecorationImage(
-                        image: AssetImage("assets/images/medical1.jpg"),
+                        image: AssetImage("assets/images/medical2.jpg"),
                         fit: BoxFit.cover,
                         ),
                     ),
@@ -150,10 +153,11 @@ class _welcomepageState extends State<welcomepage> {
               child: Container(
                     width: 150,
                     height: 150,
-                    alignment: Alignment.center,
+                     alignment: Alignment.bottomCenter,
+                    padding: const EdgeInsets.all(10.0),
                     decoration: BoxDecoration(
                       image: DecorationImage(
-                        image: AssetImage("assets/images/medical1.jpg"),
+                        image: AssetImage("assets/images/medical2.jpg"),
                         fit: BoxFit.cover,
                         ),
                     ),
@@ -183,10 +187,11 @@ class _welcomepageState extends State<welcomepage> {
               child: Container(
                     width: 150,
                     height: 150,
-                    alignment: Alignment.center,
+                     alignment: Alignment.bottomCenter,
+                    padding: const EdgeInsets.all(10.0),
                     decoration: BoxDecoration(
                       image: DecorationImage(
-                        image: AssetImage("assets/images/medical1.jpg"),
+                        image: AssetImage("assets/images/medical2.jpg"),
                         fit: BoxFit.cover,
                         ),
                     ),
@@ -208,10 +213,11 @@ class _welcomepageState extends State<welcomepage> {
               child: Container(
                     width: 150,
                     height: 150,
-                    alignment: Alignment.center,
+                     alignment: Alignment.bottomCenter,
+                    padding: const EdgeInsets.all(10.0),
                     decoration: BoxDecoration(
                       image: DecorationImage(
-                        image: AssetImage("assets/images/medical1.jpg"),
+                        image: AssetImage("assets/images/medical2.jpg"),
                         fit: BoxFit.cover,
                         ),
                     ),
@@ -241,10 +247,11 @@ class _welcomepageState extends State<welcomepage> {
               child: Container(
                     width: 150,
                     height: 150,
-                    alignment: Alignment.center,
+                     alignment: Alignment.bottomCenter,
+                    padding: const EdgeInsets.all(10.0),
                     decoration: BoxDecoration(
                       image: DecorationImage(
-                        image: AssetImage("assets/images/medical1.jpg"),
+                        image: AssetImage("assets/images/medical2.jpg"),
                         fit: BoxFit.cover,
                         ),
                     ),
@@ -266,10 +273,11 @@ class _welcomepageState extends State<welcomepage> {
               child: Container(
                     width: 150,
                     height: 150,
-                    alignment: Alignment.center,
+                     alignment: Alignment.bottomCenter,
+                    padding: const EdgeInsets.all(10.0),
                     decoration: BoxDecoration(
                       image: DecorationImage(
-                        image: AssetImage("assets/images/medical1.jpg"),
+                        image: AssetImage("assets/images/medical2.jpg"),
                         fit: BoxFit.cover,
                         ),
                     ),
@@ -299,10 +307,11 @@ class _welcomepageState extends State<welcomepage> {
               child: Container(
                     width: 150,
                     height: 150,
-                    alignment: Alignment.center,
+                     alignment: Alignment.bottomCenter,
+                    padding: const EdgeInsets.all(10.0),
                     decoration: BoxDecoration(
                       image: DecorationImage(
-                        image: AssetImage("assets/images/medical1.jpg"),
+                        image: AssetImage("assets/images/medical2.jpg"),
                         fit: BoxFit.cover,
                         ),
                     ),
@@ -324,10 +333,11 @@ class _welcomepageState extends State<welcomepage> {
               child: Container(
                     width: 150,
                     height: 150,
-                    alignment: Alignment.center,
+                     alignment: Alignment.bottomCenter,
+                    padding: const EdgeInsets.all(10.0),
                     decoration: BoxDecoration(
                       image: DecorationImage(
-                        image: AssetImage("assets/images/medical1.jpg"),
+                        image: AssetImage("assets/images/medical2.jpg"),
                         fit: BoxFit.cover,
                         ),
                     ),
@@ -357,10 +367,11 @@ class _welcomepageState extends State<welcomepage> {
               child: Container(
                     width: 150,
                     height: 150,
-                    alignment: Alignment.center,
+                     alignment: Alignment.bottomCenter,
+                    padding: const EdgeInsets.all(10.0),
                     decoration: BoxDecoration(
                       image: DecorationImage(
-                        image: AssetImage("assets/images/medical1.jpg"),
+                        image: AssetImage("assets/images/medical2.jpg"),
                         fit: BoxFit.cover,
                         ),
                     ),
@@ -382,10 +393,11 @@ class _welcomepageState extends State<welcomepage> {
               child: Container(
                     width: 150,
                     height: 150,
-                    alignment: Alignment.center,
+                     alignment: Alignment.bottomCenter,
+                    padding: const EdgeInsets.all(10.0),
                     decoration: BoxDecoration(
                       image: DecorationImage(
-                        image: AssetImage("assets/images/medical1.jpg"),
+                        image: AssetImage("assets/images/medical2.jpg"),
                         fit: BoxFit.cover,
                         ),
                     ),
@@ -415,10 +427,11 @@ class _welcomepageState extends State<welcomepage> {
               child: Container(
                     width: 150,
                     height: 150,
-                    alignment: Alignment.center,
+                     alignment: Alignment.bottomCenter,
+                    padding: const EdgeInsets.all(10.0),
                     decoration: BoxDecoration(
                       image: DecorationImage(
-                        image: AssetImage("assets/images/medical1.jpg"),
+                        image: AssetImage("assets/images/medical2.jpg"),
                         fit: BoxFit.cover,
                         ),
                     ),
@@ -440,10 +453,11 @@ class _welcomepageState extends State<welcomepage> {
               child: Container(
                     width: 150,
                     height: 150,
-                    alignment: Alignment.center,
+                    alignment: Alignment.bottomCenter,
+                    padding: const EdgeInsets.all(10.0),
                     decoration: BoxDecoration(
                       image: DecorationImage(
-                        image: AssetImage("assets/images/medical1.jpg"),
+                        image: AssetImage("assets/images/medical2.jpg"),
                         fit: BoxFit.cover,
                         ),
                     ),
@@ -473,10 +487,11 @@ class _welcomepageState extends State<welcomepage> {
               child: Container(
                     width: 150,
                     height: 150,
-                    alignment: Alignment.center,
+                     alignment: Alignment.bottomCenter,
+                    padding: const EdgeInsets.all(10.0),
                     decoration: BoxDecoration(
                       image: DecorationImage(
-                        image: AssetImage("assets/images/medical1.jpg"),
+                        image: AssetImage("assets/images/medical2.jpg"),
                         fit: BoxFit.cover,
                         ),
                     ),
@@ -498,10 +513,11 @@ class _welcomepageState extends State<welcomepage> {
               child: Container(
                     width: 150,
                     height: 150,
-                    alignment: Alignment.center,
+                     alignment: Alignment.bottomCenter,
+                    padding: const EdgeInsets.all(10.0),
                     decoration: BoxDecoration(
                       image: DecorationImage(
-                        image: AssetImage("assets/images/medical1.jpg"),
+                        image: AssetImage("assets/images/medical2.jpg"),
                         fit: BoxFit.cover,
                         ),
                     ),
@@ -531,10 +547,11 @@ class _welcomepageState extends State<welcomepage> {
               child: Container(
                     width: 150,
                     height: 150,
-                    alignment: Alignment.center,
+                     alignment: Alignment.bottomCenter,
+                    padding: const EdgeInsets.all(10.0),
                     decoration: BoxDecoration(
                       image: DecorationImage(
-                        image: AssetImage("assets/images/medical1.jpg"),
+                        image: AssetImage("assets/images/medical2.jpg"),
                         fit: BoxFit.cover,
                         ),
                     ),
@@ -556,10 +573,11 @@ class _welcomepageState extends State<welcomepage> {
               child: Container(
                     width: 150,
                     height: 150,
-                    alignment: Alignment.center,
+                     alignment: Alignment.bottomCenter,
+                    padding: const EdgeInsets.all(10.0),
                     decoration: BoxDecoration(
                       image: DecorationImage(
-                        image: AssetImage("assets/images/medical1.jpg"),
+                        image: AssetImage("assets/images/medical2.jpg"),
                         fit: BoxFit.cover,
                         ),
                     ),
@@ -589,10 +607,11 @@ class _welcomepageState extends State<welcomepage> {
               child: Container(
                     width: 150,
                     height: 150,
-                    alignment: Alignment.center,
+                     alignment: Alignment.bottomCenter,
+                    padding: const EdgeInsets.all(10.0),
                     decoration: BoxDecoration(
                       image: DecorationImage(
-                        image: AssetImage("assets/images/medical1.jpg"),
+                        image: AssetImage("assets/images/medical2.jpg"),
                         fit: BoxFit.cover,
                         ),
                     ),
@@ -614,10 +633,11 @@ class _welcomepageState extends State<welcomepage> {
               child: Container(
                     width: 150,
                     height: 150,
-                    alignment: Alignment.center,
+                     alignment: Alignment.bottomCenter,
+                    padding: const EdgeInsets.all(10.0),
                     decoration: BoxDecoration(
                       image: DecorationImage(
-                        image: AssetImage("assets/images/medical1.jpg"),
+                        image: AssetImage("assets/images/medical2.jpg"),
                         fit: BoxFit.cover,
                         ),
                     ),
@@ -647,10 +667,11 @@ class _welcomepageState extends State<welcomepage> {
               child: Container(
                     width: 150,
                     height: 150,
-                    alignment: Alignment.center,
+                     alignment: Alignment.bottomCenter,
+                    padding: const EdgeInsets.all(10.0),
                     decoration: BoxDecoration(
                       image: DecorationImage(
-                        image: AssetImage("assets/images/medical1.jpg"),
+                        image: AssetImage("assets/images/medical2.jpg"),
                         fit: BoxFit.cover,
                         ),
                     ),
@@ -672,10 +693,11 @@ class _welcomepageState extends State<welcomepage> {
               child: Container(
                     width: 150,
                     height: 150,
-                    alignment: Alignment.center,
+                     alignment: Alignment.bottomCenter,
+                    padding: const EdgeInsets.all(10.0),
                     decoration: BoxDecoration(
                       image: DecorationImage(
-                        image: AssetImage("assets/images/medical1.jpg"),
+                        image: AssetImage("assets/images/medical2.jpg"),
                         fit: BoxFit.cover,
                         ),
                     ),

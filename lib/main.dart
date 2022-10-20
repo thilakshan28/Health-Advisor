@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:health_adviser/home.dart';
 import 'package:health_adviser/welcome.dart';
 
 void main() {
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.purple,
       ),
-      home: welcomepage(),
+      home: homepage(),
     );
   }
 }
