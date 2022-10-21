@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:health_adviser/info/info.dart';
+import 'package:health_adviser/elegibility.dart';
 import 'package:health_adviser/sections/abdominal.dart';
 import 'package:health_adviser/sections/asymptomatic.dart';
 import 'package:health_adviser/sections/breastcancer.dart';
 import 'package:health_adviser/sections/cervicalcancer.dart';
 import 'package:health_adviser/sections/chlamydia.dart';
-// import 'package:health_adviser/sections/face_issues.dart';
 import 'package:health_adviser/sections/cognitiveimpairment.dart';
 import 'package:health_adviser/sections/colorectalcancer.dart';
 import 'package:health_adviser/sections/depression.dart';
@@ -202,7 +201,7 @@ class _welcomepageState extends State<welcomepage> {
               ),
                       ElevatedButton(
               onPressed: () {
-                Navigator.push(context, MaterialPageRoute(builder: (context) => cognitiveimpairment()));
+                Navigator.push(context, MaterialPageRoute(builder: (context) => elegibility()));
               }, 
               style: ElevatedButton.styleFrom(
                     shape: RoundedRectangleBorder(

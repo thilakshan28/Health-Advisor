@@ -12,6 +12,11 @@ class _diabetestype2State extends State<diabetestype2> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.vertical(
+            bottom: Radius.circular(10.0)
+          )
+        ),
         title: Text("Diabetes Type2"),
       ),
     );
