@@ -1,28 +1,33 @@
 import 'package:flutter/material.dart';
-import 'package:health_adviser/elegibility.dart';
-import 'package:health_adviser/sections/abdominal.dart';
+import 'package:health_adviser/sections/abdominalaorticaneurysm/abdominal.dart';
+import 'package:health_adviser/sections/abdominalaorticaneurysm/eligibleabdominal.dart';
 import 'package:health_adviser/sections/asymptomatic.dart';
-import 'package:health_adviser/sections/breastcancer.dart';
-import 'package:health_adviser/sections/cervicalcancer.dart';
-import 'package:health_adviser/sections/chlamydia.dart';
+import 'package:health_adviser/sections/breastcancer/breastcancereligible.dart';
+import 'package:health_adviser/sections/cervicalcancer/cervicalcancer.dart';
+import 'package:health_adviser/sections/cervicalcancer/eligiblecc.dart';
+import 'package:health_adviser/sections/colorectalcancer/eligiblecol_c.dart';
+import 'package:health_adviser/sections/diabetes/eligible_dia.dart';
+import 'package:health_adviser/sections/gonorrhea/chlamydia.dart';
 import 'package:health_adviser/sections/cognitiveimpairment.dart';
-import 'package:health_adviser/sections/colorectalcancer.dart';
+import 'package:health_adviser/sections/colorectalcancer/colorectalcancer.dart';
 import 'package:health_adviser/sections/depression.dart';
 import 'package:health_adviser/sections/developmentdelay.dart';
 import 'package:health_adviser/sections/esophageal.dart';
+import 'package:health_adviser/sections/gonorrhea/eligible_chy.dart';
 import 'package:health_adviser/sections/hepatitis.dart';
-import 'package:health_adviser/sections/hypertension.dart';
+import 'package:health_adviser/sections/hypertension/eligible_ht.dart';
+import 'package:health_adviser/sections/hypertension/hypertension.dart';
 import 'package:health_adviser/sections/impairedvision.dart';
-import 'package:health_adviser/sections/lungcancer.dart';
-import 'package:health_adviser/sections/obesityadults.dart';
-import 'package:health_adviser/sections/obesitychildren.dart';
+import 'package:health_adviser/sections/lungcancer/lungcancer.dart';
+import 'package:health_adviser/sections/obesity/obesityadults.dart';
+import 'package:health_adviser/sections/obesity/obesitychildren.dart';
 import 'package:health_adviser/sections/pregnancy.dart';
-import 'package:health_adviser/sections/prostate.dart';
+import 'package:health_adviser/sections/prostatecancer/prostate.dart';
 import 'package:health_adviser/sections/testing.dart';
-import 'package:health_adviser/sections/thyroid.dart';
+import 'package:health_adviser/sections/hypothyroidism/thyroid.dart';
 import 'package:health_adviser/sections/tobacco.dart';
 
-import 'sections/diabetes.dart';
+import 'sections/diabetes/diabetes.dart';
 
 class welcomepage extends StatefulWidget {
   const welcomepage({ Key? key }) : super(key: key);
@@ -41,7 +46,7 @@ class _welcomepageState extends State<welcomepage> {
             bottom: Radius.circular(10.0)
           )
         ),
-        title: Text("Health Advisor"),
+        title: Text("WELLNESS SCREEN"),
       ),
       body: Container(
         child: SingleChildScrollView(
@@ -55,7 +60,7 @@ class _welcomepageState extends State<welcomepage> {
               children: [
                 ElevatedButton(
                   onPressed: () {
-                    Navigator.push(context, MaterialPageRoute(builder: (context) => abdominal()));
+                    Navigator.push(context, MaterialPageRoute(builder: (context) => abdominaleligible()));
                   }, 
                   style: ElevatedButton.styleFrom(
                     shape: RoundedRectangleBorder(
@@ -115,7 +120,7 @@ class _welcomepageState extends State<welcomepage> {
                   children: [
                     ElevatedButton(
               onPressed: () {
-                Navigator.push(context, MaterialPageRoute(builder: (context) => breastcancer()));
+                Navigator.push(context, MaterialPageRoute(builder: (context) => breastcancereligible()));
               }, 
               style: ElevatedButton.styleFrom(
                     shape: RoundedRectangleBorder(
@@ -141,7 +146,7 @@ class _welcomepageState extends State<welcomepage> {
               ),
                     ElevatedButton(
               onPressed: () {
-                Navigator.push(context, MaterialPageRoute(builder: (context) => cervicalcancer()));
+                Navigator.push(context, MaterialPageRoute(builder: (context) => eligiblecc()));
               }, 
               style: ElevatedButton.styleFrom(
                     shape: RoundedRectangleBorder(
@@ -175,7 +180,7 @@ class _welcomepageState extends State<welcomepage> {
                     children: [
                       ElevatedButton(
               onPressed: () {
-                Navigator.push(context, MaterialPageRoute(builder: (context) => chylamydia()));
+                Navigator.push(context, MaterialPageRoute(builder: (context) => eligible_chy()));
               }, 
               style: ElevatedButton.styleFrom(
                     shape: RoundedRectangleBorder(
@@ -201,7 +206,7 @@ class _welcomepageState extends State<welcomepage> {
               ),
                       ElevatedButton(
               onPressed: () {
-                Navigator.push(context, MaterialPageRoute(builder: (context) => elegibility()));
+                Navigator.push(context, MaterialPageRoute(builder: (context) => cognitiveimpairment()));
               }, 
               style: ElevatedButton.styleFrom(
                     shape: RoundedRectangleBorder(
@@ -235,7 +240,7 @@ class _welcomepageState extends State<welcomepage> {
                     children: [
                       ElevatedButton(
               onPressed: () {
-                Navigator.push(context, MaterialPageRoute(builder: (context) => colorectalcancer()));
+                Navigator.push(context, MaterialPageRoute(builder: (context) => eligiblecol_c()));
               }, 
               style: ElevatedButton.styleFrom(
                     shape: RoundedRectangleBorder(
@@ -321,7 +326,7 @@ class _welcomepageState extends State<welcomepage> {
               ),
                       ElevatedButton(
               onPressed: () {
-                Navigator.push(context, MaterialPageRoute(builder: (context) => diabetestype2()));
+                Navigator.push(context, MaterialPageRoute(builder: (context) => eligible_dia()));
               }, 
               style: ElevatedButton.styleFrom(
                     shape: RoundedRectangleBorder(
@@ -415,7 +420,7 @@ class _welcomepageState extends State<welcomepage> {
                     children: [
                       ElevatedButton(
               onPressed: () {
-                Navigator.push(context, MaterialPageRoute(builder: (context) => hypertension()));
+                Navigator.push(context, MaterialPageRoute(builder: (context) => eligible_ht()));
               }, 
               style: ElevatedButton.styleFrom(
                     shape: RoundedRectangleBorder(
