@@ -11,13 +11,21 @@ class _asymptomaticState extends State<asymptomatic> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.vertical(
-            bottom: Radius.circular(10.0)
-          )
+      appBar: PreferredSize(
+        preferredSize: Size.fromHeight(60.0),
+        child: AppBar(
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.vertical(
+              bottom: Radius.circular(10.0)
+            )
+          ),
+          title: Text(
+            "SCREENING FOR ASYMPTOMATIC\n BACTERIURIA IN PREGNANCY",
+            style: TextStyle(
+              fontSize: 16,
+            ),
+            ),
         ),
-        title: Text("SCREENING FOR\n ASYMPTOMATIC BACTERIURIA\n IN PREGNANCY"),
       ),
       body: Container(
         padding: EdgeInsets.all(20.0),
@@ -28,7 +36,7 @@ class _asymptomaticState extends State<asymptomatic> {
                 "Who is at increased risk for asymptomatic bacteriuria?",
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
-                  color: Colors.blue,
+                  color: Colors.purple,
                 ),
               ),
               new Text(
@@ -38,7 +46,7 @@ class _asymptomaticState extends State<asymptomatic> {
                 "What are some considerations for implementing this recommendation?",
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
-                  color: Colors.blue
+                  color: Colors.purple
                 ),
               ),
               new Text(
@@ -66,7 +74,7 @@ class _asymptomaticState extends State<asymptomatic> {
                 "What are the benefits and harms of screening for asymptomatic bacteriuria in pregnancy?",
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
-                  color: Colors.blue,
+                  color: Colors.purple,
                 ),
               ),
               new Text(
@@ -82,7 +90,7 @@ class _asymptomaticState extends State<asymptomatic> {
                 "Why is it a weak recommendation?",
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
-                  color: Colors.blue,
+                  color: Colors.purple,
                 ),
               ),
               new Text(
@@ -95,7 +103,7 @@ class _asymptomaticState extends State<asymptomatic> {
                 "What does a weak recommendation mean?",
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
-                  color: Colors.blue,
+                  color: Colors.purple,
                 ),
               ),
               new Text(
@@ -105,7 +113,7 @@ class _asymptomaticState extends State<asymptomatic> {
                 "What do you do with a positive test result?",
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
-                  color: Colors.blue,
+                  color: Colors.purple,
                 ),
               ),
               new Text(

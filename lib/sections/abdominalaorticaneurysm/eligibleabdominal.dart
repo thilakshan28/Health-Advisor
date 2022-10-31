@@ -11,17 +11,11 @@ class abdominaleligible extends StatefulWidget {
 class _abdominaleligibleState extends State<abdominaleligible> {
 
   final TextEditingController t1 = new TextEditingController();
+  String gender ='Male';
+  var age=0;
+  
   @override
   Widget build(BuildContext context) {
-
-    String gender ='Male';
-    var age=0;
-
-    void checkRadio(String value) {
-      setState(() {
-        gender=value;
-      });
-    }
 
     return Scaffold(
       appBar: AppBar(
@@ -69,9 +63,9 @@ class _abdominaleligibleState extends State<abdominaleligible> {
                 ElevatedButton(
                   onPressed: () {
                     age = int.parse(t1.text);
-                    if(age<80 && age>65 && gender=="Male") {
+                    if(age<=80 && age>=65 && gender=="Male") {
                       Navigator.push(context, MaterialPageRoute(builder: (context) => abdominal()));
-                    } else if(t1.text.isEmpty && gender==" ") {
+                    } else if(t1.text.isEmpty) {
                       showDialog(
                             context: context, 
                             builder: (BuildContext context) => AlertDialog(

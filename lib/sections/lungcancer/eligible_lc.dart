@@ -1,19 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:health_adviser/sections/gonorrhea/chlamydia.dart';
+import 'package:health_adviser/sections/lungcancer/lungcancer.dart';
 
-class eligible_chy extends StatefulWidget {
-  const eligible_chy({Key? key}) : super(key: key);
+class eligible_lc extends StatefulWidget {
+  const eligible_lc({Key? key}) : super(key: key);
 
   @override
-  State<eligible_chy> createState() => _eligible_chyState();
+  State<eligible_lc> createState() => _eligible_lcState();
 }
 
-class _eligible_chyState extends State<eligible_chy> {
+class _eligible_lcState extends State<eligible_lc> {
 
   final TextEditingController t1 = new TextEditingController();
-
   var age=0;
-  String sa="Yes";
+  String smoker="Yes";
 
   @override
   Widget build(BuildContext context) {
@@ -27,7 +26,6 @@ class _eligible_chyState extends State<eligible_chy> {
         ),
       ),
       body: Container(
-        padding: const EdgeInsets.all(40.0),
         child: Column(
           children: [
             new TextField(
@@ -38,12 +36,12 @@ class _eligible_chyState extends State<eligible_chy> {
                         ),
                         controller: t1,
                       ),
-                      Padding(
-                        padding: const EdgeInsets.all(20.0)
-                      ),
-                      const Text("Sexually Active : "),
+                      new Padding(
+                padding: const EdgeInsets.all(20.0)
+                ),
+                const Text("Are you a smoker? "),
                 DropdownButton<String>(
-                   value: sa,
+                   value: smoker,
                   items: <String>['Yes', 'No']
                   .map<DropdownMenuItem<String>>((String value) {
                 return DropdownMenuItem<String>(
@@ -56,16 +54,16 @@ class _eligible_chyState extends State<eligible_chy> {
               }).toList(),
                   onChanged: (String? newValue) {
                 setState(() {
-                  sa = newValue!;
+                  smoker = newValue!;
                 });
               },
             ),
-                      ElevatedButton(
+                ElevatedButton(
                   onPressed: () {
                     age = int.parse(t1.text);
-                    if(age>=15 && age<=29 && sa=="Yes") {
-                      Navigator.push(context, MaterialPageRoute(builder: (context) => chylamydia()));
-                    } else if(t1.text.isEmpty) {
+                    if(age>18 && smoker=="Yes") {
+                      Navigator.push(context, MaterialPageRoute(builder: (context) => lungcancer()));
+                    } else if(t1.text.isEmpty && smoker==" ") {
                       showDialog(
                             context: context, 
                             builder: (BuildContext context) => AlertDialog(
@@ -77,7 +75,7 @@ class _eligible_chyState extends State<eligible_chy> {
                               ],
                             )
                             );
-                    } else {
+                    } else  {
                       showDialog(
                             context: context, 
                             builder: (BuildContext context) => AlertDialog(

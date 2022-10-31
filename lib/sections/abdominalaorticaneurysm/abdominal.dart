@@ -26,7 +26,10 @@ class _abdominalState extends State<abdominal> {
             bottom: Radius.circular(10.0)
           )
         ),
-        title: Text("Abdominal Aortic Aneurysm\n (AAA) Screening"),
+        title: Text("ABDOMINAL AORTIC ANEURYSM\n (AAA) SCREENING",
+        style: TextStyle(
+            fontSize: 16
+          ),),
       ),
       body: Container(
         padding: EdgeInsets.all(20.0),
@@ -35,7 +38,7 @@ class _abdominalState extends State<abdominal> {
             children: str.map((strone) {
               return Row(
                 children: [
-                  Text("✔ ",style: TextStyle(fontSize: 30),),
+                  Text(" ",style: TextStyle(fontSize: 30),),
                   SizedBox(width: 10,),
                   Expanded(
                     child: Text(

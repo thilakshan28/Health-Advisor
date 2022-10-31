@@ -1,19 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:health_adviser/sections/gonorrhea/chlamydia.dart';
+import 'package:health_adviser/sections/prostatecancer/prostate.dart';
 
-class eligible_chy extends StatefulWidget {
-  const eligible_chy({Key? key}) : super(key: key);
+class eligible_pc extends StatefulWidget {
+  const eligible_pc({Key? key}) : super(key: key);
 
   @override
-  State<eligible_chy> createState() => _eligible_chyState();
+  State<eligible_pc> createState() => _eligible_pcState();
 }
 
-class _eligible_chyState extends State<eligible_chy> {
+class _eligible_pcState extends State<eligible_pc> {
 
   final TextEditingController t1 = new TextEditingController();
-
   var age=0;
-  String sa="Yes";
+  String gender="Male";
 
   @override
   Widget build(BuildContext context) {
@@ -38,13 +37,13 @@ class _eligible_chyState extends State<eligible_chy> {
                         ),
                         controller: t1,
                       ),
-                      Padding(
-                        padding: const EdgeInsets.all(20.0)
-                      ),
-                      const Text("Sexually Active : "),
+                      new Padding(
+                padding: const EdgeInsets.all(20.0)
+                ),
+                const Text("Gender : "),
                 DropdownButton<String>(
-                   value: sa,
-                  items: <String>['Yes', 'No']
+                   value: gender,
+                  items: <String>['Male', 'Female', 'Other']
                   .map<DropdownMenuItem<String>>((String value) {
                 return DropdownMenuItem<String>(
                   value: value,
@@ -56,16 +55,16 @@ class _eligible_chyState extends State<eligible_chy> {
               }).toList(),
                   onChanged: (String? newValue) {
                 setState(() {
-                  sa = newValue!;
+                  gender = newValue!;
                 });
               },
             ),
-                      ElevatedButton(
+            ElevatedButton(
                   onPressed: () {
                     age = int.parse(t1.text);
-                    if(age>=15 && age<=29 && sa=="Yes") {
-                      Navigator.push(context, MaterialPageRoute(builder: (context) => chylamydia()));
-                    } else if(t1.text.isEmpty) {
+                    if(age>=55 && age<=69 && gender=="Male") {
+                      Navigator.push(context, MaterialPageRoute(builder: (context) => prostate()));
+                    } else if(t1.text.isEmpty && gender==" ") {
                       showDialog(
                             context: context, 
                             builder: (BuildContext context) => AlertDialog(
@@ -77,7 +76,7 @@ class _eligible_chyState extends State<eligible_chy> {
                               ],
                             )
                             );
-                    } else {
+                    } else  {
                       showDialog(
                             context: context, 
                             builder: (BuildContext context) => AlertDialog(

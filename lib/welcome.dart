@@ -17,11 +17,14 @@ import 'package:health_adviser/sections/gonorrhea/eligible_chy.dart';
 import 'package:health_adviser/sections/hepatitis.dart';
 import 'package:health_adviser/sections/hypertension/eligible_ht.dart';
 import 'package:health_adviser/sections/hypertension/hypertension.dart';
+import 'package:health_adviser/sections/hypothyroidism/eligible_hypo.dart';
 import 'package:health_adviser/sections/impairedvision.dart';
 import 'package:health_adviser/sections/lungcancer/lungcancer.dart';
+import 'package:health_adviser/sections/obesity/eligible_obe.dart';
 import 'package:health_adviser/sections/obesity/obesityadults.dart';
 import 'package:health_adviser/sections/obesity/obesitychildren.dart';
 import 'package:health_adviser/sections/pregnancy.dart';
+import 'package:health_adviser/sections/prostatecancer/eligible_pc.dart';
 import 'package:health_adviser/sections/prostatecancer/prostate.dart';
 import 'package:health_adviser/sections/testing.dart';
 import 'package:health_adviser/sections/hypothyroidism/thyroid.dart';
@@ -69,8 +72,8 @@ class _welcomepageState extends State<welcomepage> {
                     primary: Colors.black,
                   ),
                   child: Container(
-                    width: 150,
-                    height: 150,
+                    width: 100,
+                    height: 100,
                     alignment: Alignment.bottomCenter,
                     padding: const EdgeInsets.all(10.0),
                     decoration: BoxDecoration(
@@ -95,8 +98,8 @@ class _welcomepageState extends State<welcomepage> {
                     primary: Colors.black,
                   ),
               child: Container(
-                width: 150,
-                height: 150,
+                width: 100,
+                height: 100,
                  alignment: Alignment.bottomCenter,
                     padding: const EdgeInsets.all(10.0),
                 decoration: BoxDecoration(
@@ -129,8 +132,8 @@ class _welcomepageState extends State<welcomepage> {
                     primary: Colors.black,
                   ),
               child: Container(
-                width: 150,
-                height: 150,
+                width: 100,
+                height: 100,
                  alignment: Alignment.bottomCenter,
                     padding: const EdgeInsets.all(10.0),
                 decoration: BoxDecoration(
@@ -155,8 +158,8 @@ class _welcomepageState extends State<welcomepage> {
                     primary: Colors.black,
                   ),
               child: Container(
-                    width: 150,
-                    height: 150,
+                    width: 100,
+                    height: 100,
                      alignment: Alignment.bottomCenter,
                     padding: const EdgeInsets.all(10.0),
                     decoration: BoxDecoration(
@@ -189,8 +192,8 @@ class _welcomepageState extends State<welcomepage> {
                     primary: Colors.black,
                   ),
               child: Container(
-                    width: 150,
-                    height: 150,
+                    width: 100,
+                    height: 100,
                      alignment: Alignment.bottomCenter,
                     padding: const EdgeInsets.all(10.0),
                     decoration: BoxDecoration(
@@ -215,8 +218,8 @@ class _welcomepageState extends State<welcomepage> {
                     primary: Colors.black,
                   ),
               child: Container(
-                    width: 150,
-                    height: 150,
+                    width: 100,
+                    height: 100,
                      alignment: Alignment.bottomCenter,
                     padding: const EdgeInsets.all(10.0),
                     decoration: BoxDecoration(
@@ -249,8 +252,8 @@ class _welcomepageState extends State<welcomepage> {
                     primary: Colors.black,
                   ),
               child: Container(
-                    width: 150,
-                    height: 150,
+                    width: 100,
+                    height: 100,
                      alignment: Alignment.bottomCenter,
                     padding: const EdgeInsets.all(10.0),
                     decoration: BoxDecoration(
@@ -275,8 +278,8 @@ class _welcomepageState extends State<welcomepage> {
                     primary: Colors.black,
                   ),
               child: Container(
-                    width: 150,
-                    height: 150,
+                    width: 100,
+                    height: 100,
                      alignment: Alignment.bottomCenter,
                     padding: const EdgeInsets.all(10.0),
                     decoration: BoxDecoration(
@@ -309,8 +312,8 @@ class _welcomepageState extends State<welcomepage> {
                     primary: Colors.black,
                   ),
               child: Container(
-                    width: 150,
-                    height: 150,
+                    width: 100,
+                    height: 100,
                      alignment: Alignment.bottomCenter,
                     padding: const EdgeInsets.all(10.0),
                     decoration: BoxDecoration(
@@ -335,8 +338,8 @@ class _welcomepageState extends State<welcomepage> {
                     primary: Colors.black,
                   ),
               child: Container(
-                    width: 150,
-                    height: 150,
+                    width: 100,
+                    height: 100,
                      alignment: Alignment.bottomCenter,
                     padding: const EdgeInsets.all(10.0),
                     decoration: BoxDecoration(
@@ -369,8 +372,8 @@ class _welcomepageState extends State<welcomepage> {
                     primary: Colors.black,
                   ),
               child: Container(
-                    width: 150,
-                    height: 150,
+                    width: 100,
+                    height: 100,
                      alignment: Alignment.bottomCenter,
                     padding: const EdgeInsets.all(10.0),
                     decoration: BoxDecoration(
@@ -395,8 +398,8 @@ class _welcomepageState extends State<welcomepage> {
                     primary: Colors.black,
                   ),
               child: Container(
-                    width: 150,
-                    height: 150,
+                    width: 100,
+                    height: 100,
                      alignment: Alignment.bottomCenter,
                     padding: const EdgeInsets.all(10.0),
                     decoration: BoxDecoration(
@@ -429,8 +432,8 @@ class _welcomepageState extends State<welcomepage> {
                     primary: Colors.black,
                   ),
               child: Container(
-                    width: 150,
-                    height: 150,
+                    width: 100,
+                    height: 100,
                      alignment: Alignment.bottomCenter,
                     padding: const EdgeInsets.all(10.0),
                     decoration: BoxDecoration(
@@ -455,8 +458,8 @@ class _welcomepageState extends State<welcomepage> {
                     primary: Colors.black,
                   ),
               child: Container(
-                    width: 150,
-                    height: 150,
+                    width: 100,
+                    height: 100,
                     alignment: Alignment.bottomCenter,
                     padding: const EdgeInsets.all(10.0),
                     decoration: BoxDecoration(
@@ -489,8 +492,8 @@ class _welcomepageState extends State<welcomepage> {
                     primary: Colors.black,
                   ),
               child: Container(
-                    width: 150,
-                    height: 150,
+                    width: 100,
+                    height: 100,
                      alignment: Alignment.bottomCenter,
                     padding: const EdgeInsets.all(10.0),
                     decoration: BoxDecoration(
@@ -506,7 +509,7 @@ class _welcomepageState extends State<welcomepage> {
               ),
                       ElevatedButton(
               onPressed: () {
-                Navigator.push(context, MaterialPageRoute(builder: (context) => obesityadult()));
+                Navigator.push(context, MaterialPageRoute(builder: (context) => eligible_obe()));
               }, 
               style: ElevatedButton.styleFrom(
                     shape: RoundedRectangleBorder(
@@ -515,8 +518,8 @@ class _welcomepageState extends State<welcomepage> {
                     primary: Colors.black,
                   ),
               child: Container(
-                    width: 150,
-                    height: 150,
+                    width: 100,
+                    height: 100,
                      alignment: Alignment.bottomCenter,
                     padding: const EdgeInsets.all(10.0),
                     decoration: BoxDecoration(
@@ -526,7 +529,7 @@ class _welcomepageState extends State<welcomepage> {
                         ),
                     ),
                     child: Text(
-                      "Obesity Adults",
+                      "Obesity",
                     ),
               ),
               ),
@@ -540,32 +543,6 @@ class _welcomepageState extends State<welcomepage> {
                     children: [
                       ElevatedButton(
               onPressed: () {
-                Navigator.push(context, MaterialPageRoute(builder: (context) => obesitychildren()));
-              }, 
-              style: ElevatedButton.styleFrom(
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(10.0)
-                    ),
-                    primary: Colors.black,
-                  ),
-              child: Container(
-                    width: 150,
-                    height: 150,
-                     alignment: Alignment.bottomCenter,
-                    padding: const EdgeInsets.all(10.0),
-                    decoration: BoxDecoration(
-                      image: DecorationImage(
-                        image: AssetImage("assets/images/medical2.jpg"),
-                        fit: BoxFit.cover,
-                        ),
-                    ),
-                    child: Text(
-                      "Obesity Children",
-                    ),
-              ),
-              ),
-                      ElevatedButton(
-              onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context) => pregnancy()));
               }, 
               style: ElevatedButton.styleFrom(
@@ -575,8 +552,8 @@ class _welcomepageState extends State<welcomepage> {
                     primary: Colors.black,
                   ),
               child: Container(
-                    width: 150,
-                    height: 150,
+                    width: 100,
+                    height: 100,
                      alignment: Alignment.bottomCenter,
                     padding: const EdgeInsets.all(10.0),
                     decoration: BoxDecoration(
@@ -590,17 +567,9 @@ class _welcomepageState extends State<welcomepage> {
                     ),
               ),
               ),
-                    ],
-                  ),
-                  new Padding(
-                  padding: const EdgeInsets.all(20.0)
-                  ),
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                    children: [
-                      ElevatedButton(
+              ElevatedButton(
               onPressed: () {
-                Navigator.push(context, MaterialPageRoute(builder: (context) => prostate()));
+                Navigator.push(context, MaterialPageRoute(builder: (context) => eligible_pc()));
               }, 
               style: ElevatedButton.styleFrom(
                     shape: RoundedRectangleBorder(
@@ -609,8 +578,8 @@ class _welcomepageState extends State<welcomepage> {
                     primary: Colors.black,
                   ),
               child: Container(
-                    width: 150,
-                    height: 150,
+                    width: 100,
+                    height: 100,
                      alignment: Alignment.bottomCenter,
                     padding: const EdgeInsets.all(10.0),
                     decoration: BoxDecoration(
@@ -624,32 +593,6 @@ class _welcomepageState extends State<welcomepage> {
                     ),
               ),
               ),
-                      ElevatedButton(
-              onPressed: () {
-                Navigator.push(context, MaterialPageRoute(builder: (context) => testing()));
-              }, 
-              style: ElevatedButton.styleFrom(
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(10.0)
-                    ),
-                    primary: Colors.black,
-                  ),
-              child: Container(
-                    width: 150,
-                    height: 150,
-                     alignment: Alignment.bottomCenter,
-                    padding: const EdgeInsets.all(10.0),
-                    decoration: BoxDecoration(
-                      image: DecorationImage(
-                        image: AssetImage("assets/images/medical2.jpg"),
-                        fit: BoxFit.cover,
-                        ),
-                    ),
-                    child: Text(
-                      "Testing Wisely",
-                    ),
-              ),
-              ),
                     ],
                   ),
                   new Padding(
@@ -658,9 +601,9 @@ class _welcomepageState extends State<welcomepage> {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: [
-                      ElevatedButton(
+              ElevatedButton(
               onPressed: () {
-                Navigator.push(context, MaterialPageRoute(builder: (context) => thyroid()));
+                Navigator.push(context, MaterialPageRoute(builder: (context) => eligible_hypo()));
               }, 
               style: ElevatedButton.styleFrom(
                     shape: RoundedRectangleBorder(
@@ -669,8 +612,8 @@ class _welcomepageState extends State<welcomepage> {
                     primary: Colors.black,
                   ),
               child: Container(
-                    width: 150,
-                    height: 150,
+                    width: 100,
+                    height: 100,
                      alignment: Alignment.bottomCenter,
                     padding: const EdgeInsets.all(10.0),
                     decoration: BoxDecoration(
@@ -684,7 +627,7 @@ class _welcomepageState extends State<welcomepage> {
                     ),
               ),
               ),
-                      ElevatedButton(
+              ElevatedButton(
               onPressed: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context) => tobacco()));
               }, 
@@ -695,8 +638,8 @@ class _welcomepageState extends State<welcomepage> {
                     primary: Colors.black,
                   ),
               child: Container(
-                    width: 150,
-                    height: 150,
+                    width: 100,
+                    height: 100,
                      alignment: Alignment.bottomCenter,
                     padding: const EdgeInsets.all(10.0),
                     decoration: BoxDecoration(
